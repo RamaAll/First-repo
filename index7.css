@@ -1,0 +1,159 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@800&display=swap');
+
+:root{
+    --main-color: #ffc451;
+    --white-color: #ffffff;
+    --dark-color: #000;
+    --gray-color: #444444;
+}
+body{
+    height: 1000px;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+.navbar{
+    background: transparent;
+}
+.main-color{
+    color: var(--main-color) !important;
+}
+.gray-color{
+    color: var(--gray-color);
+    font-weight: bold;
+}
+.gray-color-light{
+    color: var(--gray-color); 
+}
+.nav-link:hover{
+    color: var(--main-color) !important;
+}
+.nav-dark{
+    background: rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
+}
+
+.white-color{
+    color: var(--white-color) !important;
+}
+.flex-direction-column{
+    flex-direction: column !important;
+}
+.custom-button {
+    padding: 7px 25px;
+    background: transparent;
+    border: 1px solid var(--main-color);
+    text-align: center;
+    border-radius: 5px;
+    color: var(--white-color);
+    transition: .5s;
+}
+.custom-button:hover{
+    background-color: var(--main-color);
+    color: var(--dark-color);
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header{
+    background: url('../images/bg1.jpg') fixed;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.parent{
+    padding: 100px 0;
+}
+.cards{
+    padding: 30px;
+    width: 90%;
+    margin: auto
+}
+.text-area h1{
+    font-size: 70px;
+    font-weight: bold;
+    width: 70%;
+    margin: auto;
+    color: var(--main-color);
+}
+.text-area p{
+    color: var(--main-color);
+    font-size: 30px;
+    padding: 10px 30px;
+}
+.card-item{
+    height: 155px;
+    border: 1px solid var(--white-color);
+    max-width: 200px;
+    margin: auto;
+    margin-top: 20px !important;
+}
+.card-item:hover{
+    border: 1px solid var(--main-color);
+    background: rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.card-icon{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0;
+}
+.card-item h2{
+    text-align: center;
+}
+.font-italy{
+    font-style: italic;
+}
+ul{
+    /* list-style: none; */
+}
+.service{
+    height: 200px;
+    width: 100%;
+    border: 1px solid rgb(68 68 68 / 20%);
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+.service:hover{
+    margin-top: -10px;
+    box-shadow: 0px 0px 24px -15px;
+}
+.main-color-onhover{
+    transition: 0.5s;
+}
+
+.main-color-onhover:hover{
+    color: var(--main-color);
+}
+.testimonails{
+    height: 400px;
+}
+hr{
+    background: var(--main-color);
+    height: 3px;
+    border: none;
+    padding: 0 10px auto;
+}
+.emp{
+    height: max-content;
+}
+@media (min-width:1100px) {
+    .navbar{
+        height: 80px;
+    }
+}
+
+@media (max-width:992px) {
+    .header{
+        height: max-content;
+    }
+}

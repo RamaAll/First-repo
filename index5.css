@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Verdana,sans-serif;
+}
+/*.ButtonGroup_buttonOverrides__NuhSe:hover {
+    opacity: .9;
+    background: #fff;
+}
+.Button_white__snM9f:active {
+    color: #4a4a4a;
+    border-color: #4a4a4a;
+}
+.ButtonGroup_buttonOverrides__NuhSe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    pointer-events: all;
+    border: 0;
+    border-radius: 10px;
+}
+.Button_button__L4pRn {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    position: relative;
+    z-index: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    cursor: pointer;
+    transition: background-color .1s,border ease-in-out,transform .1s,box-shadow 5ms,border-color .25s;
+    vertical-align: top;
+    white-space: nowrap;
+    text-decoration: none;
+    letter-spacing: -.015em;
+    outline: none;
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+
+    margin: 0;
+}
+.ButtonGroup_buttonGroup__PZlSc {
+    list-style: none;
+}
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}*/
+
+.nav{
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    box-shadow: 1px 1px 9px -3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+}
+.links h2, .title h1{
+    margin: 0 10px;
+    padding: 15px;
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+.links h2:hover{
+    background-color: #ccc;
+}
+
+/* start second section */
+.img-header{
+    width: 100%;
+    height: 100vh;
+    background: url('./architect.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+h1,h2,h3 {
+    font-weight: 500 !important;
+}
+
+.img-header h1{
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.img-header h1 b{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 15px;
+}
+/* end second section */
+.parent{
+    padding: 50px;
+}
+/* start third section */
+.cards, .about, .employyes, .form{
+    padding: 25px;
+    margin-top: 40px;
+}
+.about{
+    margin-top: 20px !important;
+}
+hr{
+    margin: 20px 0;
+    background-color: #ccc;
+    opacity: 0.4;
+}
+.first-cards-set, .second-cards-set{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.second-cards-set{
+    margin-top: 40px;
+}
+.first-cards-set div:nth-child(1){
+    background: url(./house2.jpg);
+    width: 48%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first-cards-set div:nth-child(2){
+    background: url(./house3.jpg);
+    width: 48%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first-cards-set div span , .second-cards-set div span {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    position: absolute;
+}
+.second-cards-set div:nth-child(1){
+    background: url(./house4.jpg);
+    width: 48%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.second-cards-set div:nth-child(2){
+    background: url(./house5.jpg);
+    width: 48%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* end third section */
+/* start fourth section */
+#about-text{
+    font-size: 18px;
+    line-height: 1.5;
+}
+/* end fourth section */
+/* start fifth section */
+.employyes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.employyes .emp{
+    width: 48%;
+    margin-bottom: 20px;
+}
+.employyes .emp h3, .employyes .emp span, .employyes .emp p{
+    margin: 10px 0;
+}
+.employyes .emp h3{
+    font-size: 30px;
+}
+.employyes .emp span{
+    color: #777;
+    font-weight: bold;
+}
+.employyes .emp p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.employyes .emp button{
+    padding: 20px;
+    width: 100%;
+    font-size: 30px;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.employyes .emp button:hover{
+    background-color: #ccc;
+}
+.employyes .emp img{
+    width: 100%;
+    filter: brightness(0.6);
+}
+/* end fifth section */
+
+/* start sixth section */
+.inputs-area{
+    margin-top: 20px;
+}
+.inputs-area div{
+    width: 100%;
+}
+.inputs-area div input{
+    width: 100%;
+    padding: 20px 0;
+    margin: 10px 0;
+    text-indent: 10px;
+}
+.form button{
+    width: max-content;
+    padding: 20px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 0;
+}
+
+.form button:hover{
+    background-color: #ccc;
+    color: black;
+}
+/* end sixth section */
+/* start footer section */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    color: white;
+}
+footer h3{
+    width: 100%;
+    text-align: center;
+}
+footer h3 a{
+    text-decoration: none;
+    color: yellow;
+}
+/* end footer section */
+/*للتحكم بحجم الشاشة*/
+@media (max-width: 992px) {
+    .nav {
+        flex-wrap: wrap;
+        height: 100px;
+        padding-left: 0;
+        font-size: 12px;
+        text-align: center;
+    }
+    .nav .title {
+        width: 100%;
+    }
+    .nav .links h2 {
+        padding: 13px;
+        letter-spacing: 13px;
+    }
+    .parent {
+        padding: 0px;
+    }
+    .first-cards-set, .second-cards-set, .employyes {
+        flex-wrap: wrap;
+    }
+    .first-cards-set div:nth-child(1), .first-cards-set div:nth-child(2), .employyes .emp, .second-cards-set div:nth-child(1), .second-cards-set div:nth-child(2) {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+}
